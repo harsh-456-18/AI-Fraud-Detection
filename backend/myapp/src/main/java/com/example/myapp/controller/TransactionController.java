@@ -16,7 +16,7 @@ import com.example.myapp.service.FraudDetectionService;
 
 @RestController
 @RequestMapping("/transactions")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class TransactionController {
 
     @Autowired

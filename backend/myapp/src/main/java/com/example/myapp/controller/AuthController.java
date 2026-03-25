@@ -8,7 +8,7 @@ import com.example.myapp.repository.UserRepository;
 
 @RestController
 @RequestMapping("/users")
-@CrossOrigin
+@CrossOrigin(origins = "*")
 public class AuthController {
 
     @Autowired
