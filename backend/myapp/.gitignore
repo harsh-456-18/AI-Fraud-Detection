@@ -1,0 +1,52 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# React
+frontend/node_modules
+frontend/dist
+
+# Spring Boot
+backend/target
+
+# Python
+fraud-ml-service/__pycache__
+fraud-ml-service/venv
+fraud-ml-service/*.pkl
+fraud-ml-service/custom_fraud_data.csv
+.env
+# OS
+.DS_Store
+Thumbs.db
+
+fraud-ml-service/*.csv
+
+### VS Code ###
+.vscode/
